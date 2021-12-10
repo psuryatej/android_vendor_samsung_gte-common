@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gte-common/proprietary/etc/Hdmi_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Hdmi_cal.acdb \
     vendor/samsung/gte-common/proprietary/etc/Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Headset_cal.acdb \
     vendor/samsung/gte-common/proprietary/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Speaker_cal.acdb \
-    vendor/samsung/gte-common/proprietary/etc/T13QL_s5k3l2xx_module_info.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/T13QL_s5k3l2xx_module_info.xml \
     vendor/samsung/gte-common/proprietary/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/gte-common/proprietary/lib/libAl_Awb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAl_Awb.so \
     vendor/samsung/gte-common/proprietary/lib/libAl_Awb_Sp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAl_Awb_Sp.so \
@@ -33,42 +32,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gte-common/proprietary/lib/libaf_algo_rear.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaf_algo_rear.so \
     vendor/samsung/gte-common/proprietary/lib/libawb_algo_front_al.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libawb_algo_front_al.so \
     vendor/samsung/gte-common/proprietary/lib/libawb_algo_rear_al.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libawb_algo_rear_al.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_common_1080p_b.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_1080p_b.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_common_1080p_s.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_1080p_s.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_common_res0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_res0.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_common_res1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_res1.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_common_res2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_res2.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_common_res3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_res3.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_default_video.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_default_video.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_golfshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_golfshot.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_hfr_120.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_hfr_120.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_liveshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_liveshot.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_panorama.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_panorama.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_pip.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_pip.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_preview.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_preview.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_snapshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_snapshot.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_sports.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_sports.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_uhd_video.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_uhd_video.so \
-    vendor/samsung/gte-common/proprietary/lib/libchromatix_s5k3l2xx_zslshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_zslshot.so \
     vendor/samsung/gte-common/proprietary/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/gte-common/proprietary/lib/libmmcamera_cac2_lib.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_cac2_lib.so \
     vendor/samsung/gte-common/proprietary/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_wavelet_lib.so \
     vendor/samsung/gte-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/samsung/gte-common/proprietary/vendor/lib/libactuator_dw9806_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9806_camcorder.so \
     vendor/samsung/gte-common/proprietary/vendor/lib/libactuator_dw9806_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9806_camera.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_vt.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_vt_hd.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_wide_common.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_wide_pip.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_wide_preview.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_wide_snapshot.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_wide_video.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_wide_vt.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_wide_vt_hd.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_wide_zslshot.so \
     vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
     vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
@@ -86,10 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera_hdr_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_lib.so \
     vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera_image_stab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_image_stab.so \
     vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_rohm_brce064gwz_eeprom.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera_s5k3l2xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l2xx.so \
-    vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera_s5k5e3yx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k5e3yx.so \
     vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera_silicon_sr544_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_silicon_sr544_eeprom.so \
     vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_p12v01m_eeprom.so \
     vendor/samsung/gte-common/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_p5v23c_eeprom.so \
